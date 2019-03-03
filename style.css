@@ -1,0 +1,249 @@
+#calosc {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    width: 800px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#strona {
+
+    background-color: black;
+    color: white;
+    width: 800px;
+    height: 880px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#stopka {
+    margin-left: auto;
+    margin-right: auto;
+    border-top: solid white 2px;
+    width: 800px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-family: Alfa Slab One;
+    padding-top: 20px;
+    text-align: center;
+
+
+}
+
+.glowny {
+    width: 800px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.glowny > ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+}
+
+.glowny > ul > li {
+    float: left;
+}
+
+.opcja {
+    display: inline-block;
+    width: 198.5px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    background-color:black;
+    text-decoration: none;
+    border-left: solid white 2px;
+    font-family:  Alfa Slab One;
+
+}
+
+#linia {
+    border-left: none;
+}
+
+#linia1 {
+    border-left: none;
+}
+
+.opcja:hover {
+    background-color: #333;
+}
+
+.zawartosc {
+    position: absolute;
+    top: 148px;
+    overflow: hidden;
+    background-color: black;
+    max-height: 0;
+    display: inline-block;
+
+}
+
+.zawartosc a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-family:  Alfa Slab One;
+}
+
+.pomoc {
+    padding: 0px;
+    background-color: black;
+    display: inline-block;
+    width: 198px;
+    text-align: center;
+    border-left: solid white 2px;
+}
+
+.pomoc ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.pomoc ul li a {
+    display: inline-block;
+    padding: 5px 0px;
+}
+
+.opcja:focus {
+    background-color: #444;
+}
+
+.opcja:hover ~ .zawartosc {
+    max-height: 400px;
+    -webkit-transition: max-height 0.7s ease-in-out;
+    -moz-transition: max-height 0.7s ease-in-out;
+    transition: max-height 0.7s ease-in-out;
+}
+
+.pomoc > ul > li > a {
+    width: 198px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.pomoc > ul > li > a:hover {
+    background-color: #444;
+    display: inline-block;
+}
+
+.zawartosc:hover {
+    max-height: 400px;
+    -webkit-transition: max-height 0.7s ease-in-out;
+    -moz-transition: max-height 0.7s ease-in-out;
+    transition: max-height 0.7s ease-in-out;
+}
+i
+{
+    float:left;
+    margin-left:20px;
+    margin-right:-10px;
+
+}
+#strona > #wstep
+{    
+    clear:both;
+    min-height:300px;
+    font-size:25px;
+    text-align:center;
+    padding-top:70px;
+    font-family: Anton;
+}
+#dol
+{
+    font-size:80px;
+    text-align:center;  
+    font-family: Anton;
+    letter-spacing: 10px;
+    width:300px;
+    margin-left:200px;
+}
+.gora
+{
+    font-size:25px;
+    font-family: Anton;
+    line-height:40px;
+}
+
+#tabela
+{
+    font-family:Alfa Slab One;
+    width:500px;
+    height:600px;
+    margin-left:150px;
+    border:solid white 2px;
+}
+#pole
+{
+       max-height: 120px; 
+    width: 490px;
+    overflow: hidden;
+    margin-left:10px;
+    margin-right:3px;
+
+}
+.pole
+{
+    width:490;       
+    height:120px;
+    color:white;
+    background-color:black;
+    font-size:80px;
+}
+.pola
+{
+    background-color:black;
+    color:white;
+}
+.guzik
+{
+    height:90px;
+    width:118px;
+    background-color:black;
+    color:white;
+    font-size:60px;
+    font-family:Alfa Slab One;
+
+}
+#guzik
+{
+    width:498px;
+}
+.guzik:hover{
+    background-color:#444;
+    transition:0.3s;
+}
+.proste
+{
+    font-size:30px;
+    font-family:Oswald;
+
+    margin-left:125px;
+}
+#tabela1
+{
+    font-family:Alfa Slab One;
+    width:500px;
+    height:600px;
+    margin-left:150px;
+
+     text-align: center;
+}
+.podzial
+{
+    text-align: center;
+     border:solid white 2px;
+}
